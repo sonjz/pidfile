@@ -32,7 +32,7 @@ describe PidFile do
   end
 
   it "should create a pid file upon instantiation" do
-    File.exists?(@pidfile.pidpath).should be_true
+    File.exist?(@pidfile.pidpath).should be_true
   end
 
   it "should create a pidfile containing same PID as process" do
