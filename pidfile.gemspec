@@ -7,14 +7,15 @@ Gem::Specification.new do |s|
   s.summary = "A basic library for creating lockfiles for processes"
   s.authors = ["Samuel Mullen"]
   s.email = "samullen@gmail.com"
-  s.test_files = Dir['test/**/*.rb']
+  #s.test_files = Dir['test/**/*.rb']
   s.description = false
-  s.files = [
-    "LICENSE",
-    "README.rdoc",
-    "Rakefile",
+  s.files = [ "lib/pidfile.rb" ]
+#  s.files = [
+#    "LICENSE",
+#    "README.rdoc",
+#    "Rakefile",
 #     "examples/functional.rb",
 #     "examples/objectoriented.rb",
-    "lib/pidfile.rb",
-  ] + s.test_files
+#    "lib/pidfile.rb",
+#] + s.test_files
 end
