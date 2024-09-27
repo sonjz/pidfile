@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = "samullen@gmail.com"
   #s.test_files = Dir['test/**/*.rb']
   s.description = false
-  s.files = [ "lib/**/*.rb" ]
+  s.files = Dir["lib/**/*.rb"]
 #  s.files = [
 #    "LICENSE",
 #    "README.rdoc",
