@@ -1,0 +1,4 @@
+# run `bundler install` on latest ruby, aliases should be fixed
+source 'https://rubygems.org'
+gem "pidfile", :git => "https://github.com/sonjz/pidfile.git"
+
